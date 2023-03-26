@@ -1,0 +1,31 @@
+.list {
+    padding-inline-start: 1.5rem;
+    padding-inline-end: 1.5rem;
+}
+
+.list-title {
+    font: var(--basefontNormal);
+    color: var(--gray10);
+    margin-block-start: 0;
+    margin-block-end:.5rem ;
+}
+
+.list-content {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.list-item a {
+    display: block;
+    font: var(--basefontBold);
+   
+    
+}
+
+.list-item a:hover {
+    transition: color .4s;
+}

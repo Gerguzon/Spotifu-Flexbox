@@ -1,0 +1,39 @@
+@import './player-controls.css';
+@import './player-playback.css';
+@import './player-volume.css';
+@import './now-playing.css';
+
+
+.player {
+    block-size: 5.5rem;
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem;
+    background-color: var(--gray40);
+    box-shadow: inset 0px 1px 0 var(--grey30);
+    box-sizing: border-box;
+}
+
+.player > * {
+    flex: 1;
+    /* border: 1px solid red; */
+    
+}
+
+.player-control{
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 0;
+    background: none;
+    color: var(--gray10);
+    font-size: 1rem;
+    cursor: pointer;
+    padding-inline:.5rem ;
+
+}
+
+.player-playerVolume {
+    display: flex;
+    justify-content: flex-end;
+}
